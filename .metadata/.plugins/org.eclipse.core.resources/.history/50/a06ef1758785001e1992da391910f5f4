@@ -1,0 +1,111 @@
+/*============================================================================
+ * Name        : Registration.cpp
+ * Author      : Bilal Mohamed El-qaqei
+ * Version     :
+ * Copyright   : Your copyright notice
+ * Description : Hello World in C++, Ansi-style
+ ============================================================================*/
+
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+class User
+{
+private:
+	string username;
+	string password;
+public:
+	User(string name , string pass)
+	{
+		username = name;
+		password = pass;
+	}
+	string getUsername(void)
+	{
+		return username;
+	}
+	string getPassword(void)
+	{
+		return password;
+	}
+};
+
+class UserManger
+{
+private:
+	vector <User> users; //create object of vector
+public:
+	void RegisterUser(void)
+	{
+		string username;
+		string password;
+		cout << "\t\tEnter User Name : ";
+		cin >> username;
+		cout << "\t\tEnter Password : ";
+		cin >> password;
+
+		User newUser(username,password);
+		users.push_back(newUser);
+
+		cout <<"\t\t User Register Successfully ....."<<endl;
+	}
+	bool LoginUser(string name , string pass)
+	{
+		for(int i = 0; i< users.size(); i++)
+		{
+			if((users[i].getUsername() == name) && (users[i].getPassword() == pass))
+			{
+				cout << "\t\tLogin Successfully...." << endl;
+				return true;
+			}
+		}
+		cout << "\t\tInvalid User Name or Password..." << endl;
+		return false;
+	}
+};
+
+
+
+
+
+
+int main() {
+	UserManger usermange;
+
+	int op;
+	char choice;
+
+	do
+	{
+		cout << "\n\n\t\t1. Register User " << endl;
+		cout << "\t\t2. Login " << endl;
+		cout << "\t\t3. Show User List " << endl;
+		cout << "\t\t4. Search User " << endl;
+		cout << "\t\t5. Delete User " << endl;
+		cout << "\t\t6. Exit " << endl;
+		cout << "\t\tEnter Your Choice : ";
+		cin >> op;
+
+		switch(op)
+		{
+		case 1:
+			usermange.RegisterUser();
+			break;
+		case 2:
+			string username;
+			string password;
+			cout << "\t\tEnter User Name : ";
+			cin >> username;
+			cout << "\t\tEnter Password : ";
+			cin >> password;
+			usermange.LoginUser(username, password);
+			break;
+		}
+		cout << "Do You Want to Continue [Yes / No] ? :";
+		cin >> choice;
+	}while(choice =='y' || choice == 'Y');
+
+	return 0;
+}

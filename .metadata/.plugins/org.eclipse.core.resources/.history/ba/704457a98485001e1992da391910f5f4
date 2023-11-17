@@ -1,0 +1,72 @@
+/*============================================================================
+ * Name        : Registration.cpp
+ * Author      : Bilal Mohamed El-qaqei
+ * Version     :
+ * Copyright   : Your copyright notice
+ * Description : Hello World in C++, Ansi-style
+ ============================================================================*/
+
+#include <iostream>
+#include <string>
+#include <vector>
+using namespace std;
+
+class User
+{
+private:
+	string username;
+	string password;
+public:
+	User(string name , string pass)
+	{
+		username = name;
+		password = pass;
+	}
+};
+
+class UserManger
+{
+private:
+	vector <User> users; //create object of vector
+public:
+	void RegisterUser(void)
+	{
+		string username;
+		string password;
+		cout << "Enter User Name : ";
+		cin >> username;
+		cout << "Enter Password : ";
+		cin >> password;
+
+		User newUser(username,password);
+		users.push_back(newUser);
+
+		cout <<"\t\t User Register Successfully ....."<<endl;
+	}
+};
+
+
+
+
+
+
+int main() {
+	UserManger usermange;
+
+	int op;
+	cout << "\n\n\t\t1. Register User " <<endl;
+	cout << "\t\t2. Login " <<endl;
+	cout << "\t\t3. Show User List " <<endl;
+	cout << "\t\t4. Search User " <<endl;
+	cout << "\t\t5. Delete User " <<endl;
+	cout << "\t\t6. Exit " <<endl;
+	cout << "\t\tEnter Your Choice : ";
+	cin >> op;
+
+	switch(op)
+	{
+	case
+	}
+
+	return 0;
+}

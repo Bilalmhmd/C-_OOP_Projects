@@ -1,0 +1,209 @@
+Info: Nothing to build for Registration and Login Form
+23:03:36 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:77:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   77 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:90:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   90 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:04:03 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:77:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   77 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:90:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   90 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+23:04:35 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:77:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   77 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:90:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   90 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:05:04 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:77:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   77 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:90:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   90 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:07:00 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:80:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   80 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:93:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   93 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:07:32 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::showUser()':
+..\src\Registration and Login Form.cpp:71:31: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   71 |                 for( i = 0; i < users.size(); i++)
+      |                             ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:81:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   81 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:94:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   94 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:07:41 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:80:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   80 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'void UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:93:35: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   93 |                 for(int i = 0 ; i < users.size(); i++)
+      |                                 ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:09:49 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:80:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   80 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::deleteUser(std::string)':
+..\src\Registration and Login Form.cpp:102:9: warning: control reaches end of non-void function [-Wreturn-type]
+  102 |         }
+      |         ^
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+23:10:44 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::LoginUser(std::string, std::string)':
+..\src\Registration and Login Form.cpp:56:33: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   56 |                 for(int i = 0; i< users.size(); i++)
+      |                                ~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::showUser()':
+..\src\Registration and Login Form.cpp:70:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   70 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+..\src\Registration and Login Form.cpp: In member function 'bool UserManger::searchUser(std::string)':
+..\src\Registration and Login Form.cpp:80:34: warning: comparison of integer expressions of different signedness: 'int' and 'std::vector<User>::size_type' {aka 'long long unsigned int'} [-Wsign-compare]
+   80 |                 for(int i = 0; i < users.size(); i++)
+      |                                ~~^~~~~~~~~~~~~~
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+23:11:13 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+23:17:16 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+23:19:55 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+c:/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file Registration and Login Form.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+23:20:01 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+Info: Nothing to build for Registration and Login Form
+23:21:06 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
+23:23:35 **** Incremental Build of configuration Debug for project Registration and Login Form ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\Registration and Login Form.o" "..\\src\\Registration and Login Form.cpp" 
+g++ -o "Registration and Login Form.exe" "src\\Registration and Login Form.o" 
