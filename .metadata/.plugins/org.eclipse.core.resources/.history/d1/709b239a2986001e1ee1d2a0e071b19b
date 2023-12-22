@@ -29,13 +29,12 @@ public:
 	{
 		return password;
 	}
-	friend class UserManger;
 };
 
 class UserManger
 {
-/*private:
-	vector <User> users; //create object of vector*/
+private:
+	vector <User> users; //create object of vector
 public:
 	void RegisterUser(void)
 	{
@@ -47,7 +46,7 @@ public:
 		cin >> password;
 
 		User newUser(username,password); //object from class user take the two parameter from user
-		User.push_back(newUser); //built function to hold the data during the runtime
+		users.push_back(newUser); //built function to hold the data during the runtime
 
 		cout <<"\t\t User Register Successfully ....."<<endl;
 	}
